@@ -63,7 +63,7 @@ pip install -r requirements.txt
 
 ### **aula05.py**: Grupos e Retroreferências
 - Grupos de captura com `()`
-- Retroreferências com ``, ``, etc.
+- Retroreferências com `\1`, `\2`, etc.
 - Grupos nomeados com `(?P<nome>)`
 
 ### **aula06.py**: Padrões de Início/Fim
@@ -73,7 +73,7 @@ pip install -r requirements.txt
 
 ### **aula07a.py** & **aula07b.py**: Abreviações & Flags
 - `\w`, `\W`, `\d`, `\D`, `\s`, `\S`
-- Limites de palavra ``, `\B`
+- Limites de palavra `\b`, `\B`
 - Flags: `re.I`, `re.M`, `re.S`
 
 ## Exemplos Práticos
